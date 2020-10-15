@@ -1,0 +1,175 @@
+/* ====================================
+   =========css media queries==========
+   ===================================== */
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner .banner-inner .arrow{
+        transform: translateY(423%);
+    }
+    .simple-pure p {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 43px;
+    }
+    .simple-pure h1{
+        font-size: 63px;
+        font-weight: 700;
+        line-height: 73px;
+        color: #000;
+        margin-bottom: 50px;
+    }
+    .feature h4{
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    .feature p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .protofolio-title p{
+        margin-bottom: 32px;
+    }
+    .protofolio-inner{
+        margin: -3px 0%;
+    }
+    .protofolio-inner img{
+        width: 218px;
+        height: 231px;
+    }
+    .protofolio-inner .protofolio-hover{
+        width: 220px;
+        height: 234px;
+    }
+    .protofolio-inner .protofolio-hover .protofolio-icon{
+        position: absolute;
+        top: 37%;
+        left: 19%;
+    }
+    .protofolio-inner .protofolio-hover .protofolio-icon img{
+        width: 58px;
+        height: 54px;
+    }
+    .stay-us .btn-info{
+        position: absolute;
+        right: 16px;
+        top: 105%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .banner .banner-inner .arrow{
+        transform: translateY(284%);
+    }
+    .simple-pure p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .simple-pure h1{
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #000;
+    }
+    .feature p{
+        margin-bottom: 30px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .banner .banner-inner .arrow{
+        transform: translateY(284%);
+    }
+    .simple-pure p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .simple-pure h1{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #000;
+    }
+    .feature p{
+        margin-bottom: 30px;
+    }
+    .protofolio-title h1{
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 31px;
+    }
+    .protofolio-inner{
+        margin: 10px 7%;
+    }
+    .protofolio-inner img{
+        width: 287px;
+        height: 260px;
+    }
+    .protofolio-inner .protofolio-hover{
+        width: 287px;
+        height: 260px;
+    }
+    .protofolio-inner .protofolio-hover .protofolio-icon{
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+    .protofolio-inner .protofolio-hover .protofolio-icon img{
+        width: 72px;
+        height: 71px;
+    }
+    .stay-us{
+        padding-bottom: 92px;
+    }
+    .stay-us-title h1{
+        margin-right: 104px;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+    .stay-us-title p{
+        margin-right: 104px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .main-form{
+        width: 68%;
+    }
+    .stay-us span{
+        font-size: 10px;
+    }
+    .stay-us .btn-info{
+        position: absolute;
+        bottom: -53px;
+        right: 140px;
+    }
+    
+    .footer .footer-inner{
+        margin-left: 21px;
+        font-size: 25px;
+    }
+    .footer ul{
+        margin-right: 66px;
+    }
+}
